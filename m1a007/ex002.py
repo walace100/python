@@ -1,0 +1,6 @@
+nome = input('Qual é o seu nome? ')
+print('Prazer em te conhecer, {:=^20}!'.format(nome))
+# :20(limite de letras)
+# :>20(alinha para direita)
+# :<20(alinha para esquerda)
+# :^20(alinha no meio)
